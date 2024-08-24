@@ -130,6 +130,10 @@ export class Service{
             fileId
         )
     }
+    getApiKey(){
+
+        return conf.appwriteApikey
+    }
 }
 
 
